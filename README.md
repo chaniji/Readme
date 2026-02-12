@@ -59,19 +59,27 @@ ___   ____   ____   ____   ___________________   ____   ____   ____   _
 |           |___Zed                                                   | |
 |               |___DataGrip                                          | |
 |_____________________________________________________________________|/|
-```
+
+         |\
+         |-\        Hii!
+         |--\
+         |---\
+         |----\       +--------------------------------------------------+
+         |--H--\      |My name is Chandramouli M software developer,     |
+        /|------\     |enthusiast and minimalist. I build clean,efficient|
+       / |-------\    |web applications and believe in keep things simple|
+      /| |--------\   |Check out my repositories to see my work          |
+     /-| |---------\  +--------------------------------------------------+
+    /--| |----------\
+   /---| |-----------\          
+  /----| |------------\
+ /_____| |-----O-------\           
+/        |____/w\____|___-\
+\------------------------| |
++----------------------------------------------------------------------+
 
 ```
 
-Jean M. Pajerek             |\_____/|
-Head of Cataloging          |[o] [o]|
-Cornell Law Library         |   V   |
-Ithaca, NY 14853            |       |
-jmp8@cornell.edu           -ooo---ooo-
 
-```
-
-
-
-
+Chandramouli M is a software developer, enthusiast, and minimalist. I build clean, efficient web applications and believe in keeping things simple. Check out my repositories to see my work.
 
