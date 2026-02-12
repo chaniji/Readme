@@ -1,4 +1,3 @@
-![zen_dNKs9dzOCP](https://github.com/user-attachments/assets/881dea9e-d604-42b8-9f96-a1568ad323b6)
 ```
 -Oh tower, Tower! You that are more           |>>>    ______________________________________________________________________
  powerful than the wind, who is more            |     |:..                                                      ``:::%%%%%%HH|
@@ -32,7 +31,7 @@
  Would you marry my daughter.. who is the most wonderful, sweet, bright, gentle
  courageous and beautiful mouse on my Kingdom?"
 ```
-
+![zen_dNKs9dzOCP](https://github.com/user-attachments/assets/881dea9e-d604-42b8-9f96-a1568ad323b6)
 
 
 
