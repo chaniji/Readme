@@ -1,10 +1,10 @@
 ```
  _______________________________________________________________________
-|[] Alacriity                                                     |F]|!"|
-|"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|"|
-|chaniji:> cd ~                                                       | |
-|chaniji:>ls -a                                                       | |
-|___Languages                                                         | |
+|[] Alacriity                                                     |F]|!"| Jean M. Pajerek             |\_____/|          
+|"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|"| Head of Cataloging          |[o] [o]|
+|chaniji:> cd ~                                                       | | Cornell Law Library         |   V   |
+|chaniji:>ls -a                                                       | | Ithaca, NY 14853            |       |      
+|___Languages                                                         | | jmp8@cornell.edu           -ooo---ooo-
 |   |___Java                                                          | |
 |   |___JavaScript                                                    | |
 |   |___SQL                                                           | |
@@ -57,7 +57,15 @@
 |_____________________________________________________________________|/|
 ```
 
+```
 
+Jean M. Pajerek             |\_____/|
+Head of Cataloging          |[o] [o]|
+Cornell Law Library         |   V   |
+Ithaca, NY 14853            |       |
+jmp8@cornell.edu           -ooo---ooo-
+
+```
 
 
 
