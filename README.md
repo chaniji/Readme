@@ -81,5 +81,3 @@ ___   ____   ____   ____   ___________________   ____   ____   ____   _
 ```
 
 
-Chandramouli M is a software developer, enthusiast, and minimalist. I build clean, efficient web applications and believe in keeping things simple. Check out my repositories to see my work.
-
