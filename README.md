@@ -30,11 +30,28 @@
                     `!9899fT|!^"'
                       `!^"'
 
-    
-
-
-
 ```
+SKILLS
+├─ Languages: Java | JavaScript | SQL
+├─ Frontend
+│  ├─ HTML | CSS | DOM
+│  ├─ React.js
+│  └─ Bootstrap | Tailwind CSS
+├─ Backend
+│  ├─ Java: JDBC | JSP | JPA
+│  ├─ Spring: Spring | Spring MVC | Spring Boot
+│  ├─ Node.js
+│  └─ REST APIs
+├─ Databases: MySQL | PostgreSQL
+├─ Tools
+│  ├─ Git | Docker | Postman
+│  └─ Curl | Wget | tmux
+├─ Build & Package
+│  ├─ Maven | Vite
+│  └─ NPM | APT | Pacman | YAY
+├─ Shells: Bash | Zsh | Fish | Nushell
+├─ Design: Figma | Photoshop | Framer | WordPress | Adobe Express
+└─ IDEs: NeoVim | VS Code | IntelliJ | Zed | DataGrip
 
 
 
