@@ -1,9 +1,9 @@
 ```
                        .,,uod8B8bou,,.
               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
-         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||                                     SKILLS
-         !...:!TVBBBRPFT||||||||||!!^^""'   ||||                                     ├─ Languages: Java | JavaScript | SQL
-         !.......:!?|||||!!^^""'            ||||                                     ├─ Frontend  
+         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||                      SKILLS
+         !...:!TVBBBRPFT||||||||||!!^^""'   ||||                      ├─ Languages: Java | JavaScript | SQL
+         !.......:!?|||||!!^^""'            ||||                      ├─ Frontend  
          !.........||||                     ||||                                     │  ├─ HTML | CSS | DOM
          !.........||||  >ls                ||||                                     │  ├─ React.js
          !.........||||                     ||||                                     │  └─ Bootstrap | Tailwind CSS
