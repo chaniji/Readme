@@ -1,10 +1,14 @@
 ```
+___   ____   ____   ____   ___________________   ____   ____   ____   _
+\  \ / \  \ / \  \ / \  \ /      Chan         \ / \  \ / \  \ / \  \ /
+/\  \  /\  \  /\  \  /\    Software Developer  \  /\  \  /\  \  /\  \
+  \__\/  \__\/  \__\/  \ diachun@cs.buffalo.edu \/  \__\/  \__\/  \__\/
  _______________________________________________________________________
-|[] Alacriity                                                     |F]|!"| Jean M. Pajerek             |\_____/|          
-|"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|"| Head of Cataloging          |[o] [o]|
-|chaniji:> cd ~                                                       | | Cornell Law Library         |   V   |
-|chaniji:>ls -a                                                       | | Ithaca, NY 14853            |       |      
-|___Languages                                                         | | jmp8@cornell.edu           -ooo---ooo-
+|[] Alacriity                                                     |F]|!"|       
+|"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|"|
+|chaniji:> cd ~                                                       | | 
+|chaniji:>ls -a                                                       | | 
+|___Languages                                                         | |
 |   |___Java                                                          | |
 |   |___JavaScript                                                    | |
 |   |___SQL                                                           | |
