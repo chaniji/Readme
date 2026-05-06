@@ -1,0 +1,52 @@
+# Maven Command Reference
+# View with: bat maven-commands.yaml
+
+lifecycle_phases:
+  - command: "mvn clean"
+    description: "Removes the target directory containing build artifacts."
+  - command: "mvn compile"
+    description: "Compiles the source code of the project."
+  - command: "mvn test"
+    description: "Runs tests using a suitable unit testing framework."
+  - command: "mvn package"
+    description: "Takes the compiled code and packages it in its distributable format (e.g., JAR, WAR)."
+  - command: "mvn verify"
+    description: "Runs checks on results of integration tests to ensure quality criteria are met."
+  - command: "mvn install"
+    description: "Installs the package into the local repository (~/.m2/repository)."
+  - command: "mvn deploy"
+    description: "Copies the final package to the remote repository for sharing."
+
+useful_plugins:
+  - command: "mvn dependency:tree"
+    description: "Displays the dependency tree of the project."
+  - command: "mvn dependency:analyze"
+    description: "Analyzes dependencies to find unused or undeclared ones."
+  - command: "mvn help:effective-pom"
+    description: "Displays the computed POM as it is seen by Maven (merging parents/profiles)."
+  - command: "mvn archetype:generate"
+    description: "Creates a new Maven project from a template (archetype)."
+  - command: "mvn site"
+    description: "Generates a site documentation for the project."
+
+common_flags:
+  - flag: "-DskipTests"
+    description: "Compiles tests but does not execute them."
+  - flag: "-Dmaven.test.skip=true"
+    description: "Does not compile or run tests."
+  - flag: "-P <profile_id>"
+    description: "Activates a specific profile defined in pom.xml."
+  - flag: "-U"
+    description: "Forces a check for updated releases and snapshots on remote repositories."
+  - flag: "-X"
+    description: "Produce execution debug output (Verbose)."
+  - flag: "-am"
+    description: "Also make (build dependencies of the specified project)."
+  - flag: "-pl <project_name>"
+    description: "Project list (build only specific modules in a multi-module project)."
+
+spring_boot_specific:
+  - command: "mvn spring-boot:run"
+    description: "Runs the Spring Boot application."
+  - command: "mvn spring-boot:build-image"
+    description: "Packages the application into an OCI image (Docker)."

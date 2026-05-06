@@ -1,0 +1,25 @@
+# Gruvbox dark theme for lazygit
+# Merge into: ~/.config/lazygit/config.yml
+
+gui:
+  theme:
+    activeBorderColor:
+      - '#fabd2f'   # bright yellow — focused panel border
+      - bold
+    inactiveBorderColor:
+      - '#928374'   # gray — inactive borders
+    searchingActiveBorderColor:
+      - '#fe8019'   # bright orange — border while searching
+      - bold
+    optionsTextColor:
+      - '#83a598'   # bright blue — keybinding hints
+    selectedLineBgColor:
+      - '#504945'   # bg2 — selected line background
+    cherryPickedCommitBgColor:
+      - '#b16286'   # purple — cherry-pick background
+    cherryPickedCommitFgColor:
+      - '#d3869b'   # bright purple — cherry-pick foreground
+    unstagedChangesColor:
+      - '#fb4934'   # bright red — unstaged changes
+    defaultFgColor:
+      - '#ebdbb2'   # fg — default text
