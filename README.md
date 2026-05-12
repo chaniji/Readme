@@ -1,92 +1,84 @@
 # 🖥️ chaniji_terminal:~$ neofetch
 
 ```text
-             ...-....          USER:     chaniji
-          .MMMMMMMMMMMMMM      OS:       Linux Mint
-        .MMMMMMMMMMMMMMMMMM.   SHELL:    Bash
-       MMMMMMMMMMMMMMMMMMMMMM  EDITOR:   NeoVim / IntelliJ / Zed
-      MMMMMMMMMMMMMMMMMMMMMMMM THEME:    Gruvbox / Monochrome
-     MMMM::-:MMMMMMMMMMMMMMMMM STATUS:   Online & Building...
-    MMMM:    :MMMMMMMMMMMMMMMM ROLE:     Software Developer
-   MMMM:    :MMMMMMMMMMMMMMMMM 
-  MMMM:    :MMMMMMMMMMMMMMMMMM 
-  MMMM:    :MMMMMMMMMMMMMMMMMM 
-  MMMM:    :MMMMMMMMMMMMMMMMMM 
-   MMMM:    :MMMMMMMMMMMMMMMMM
-    MMMM:    :MMMMMMMMMMMMMMMM
-     MMMM::-:MMMMMMMMMMMMMMMMM
-      MMMMMMMMMMMMMMMMMMMMMMMM
-       MMMMMMMMMMMMMMMMMMMMMM
-        'MMMMMMMMMMMMMMMMMM'
-          'MMMMMMMMMMMMMM'
-             '-------'
+,        ,
+                                /(        )`     USER:     chaniji
+                                \ \___   / |     OS:       Linux Mint
+                                /- _  `-/  '     SHELL:    Bash
+                               (/\/ \ \   /\     EDITOR:   NeoVim / IntelliJ / Zed
+                               / /   | `    \    THEME:    Gruvbox / Monochrome
+                               O O   ) /    |    STATUS:   Online & Building...
+                               `-^--'`<     '    ROLE:     Software Developer
+                   TM         (_.)  _  )   /
+|  | |\  | ~|~ \ /             `.___/`    /
+|  | | \ |  |   X                `-----' /
+`__| |  \| _|_ / \  <----.     __ / __   \
+                    <----|====O)))==) \) /====
+                    <----'    `--' `.__,' \
+                                 |        |
+                                  \       /
+                             ______( (_  / \______
+                           ,'  ,-----'   |        \
+                           `--{__________)        \/
 ```
 
 > [!IMPORTANT]
-> **Mission:** I build clean, efficient web applications and believe in keeping things simple.
+> **Mission:** I build clean, efficient web applications and believe in keeping things simple. My focus is on production-grade automation and high-performance caching strategies.
 
 ---
 
-## 🛠️ System Capabilities (Tech Stack)
+## 🚀 Featured Skills & Projects
 
-```text
-[ LANGUAGES ]
-Java        [####################] 100%
-JavaScript  [################----] 80%
-SQL         [##############------] 70%
+### 🛠️ [springboot-project-creator]
+> [!TIP]
+> **Automated Production Scaffolding.**
+> Generates a complete 3-Tier Layered Architecture with DTO separation, constructor injection, Global Exception Handling, and OpenAPI documentation.
 
-[ FRAMEWORKS ]
-Spring Boot [####################] 100% (Expert)
-Spring MVC  [##################--] 90%
-Hibernate   [##################--] 90%
-React.js    [##############------] 70%
-Node.js     [############--------] 60%
+- **Status:** ✅ Production Ready
+- **Location:** `AgentSkills/springboot-project-creator/`
+- **Patterns:** JPA/Hibernate, PostgreSQL, Eureka, Lombok.
 
-[ INFRASTRUCTURE & TOOLS ]
-Docker      [##############------] 70%
-PostgreSQL  [################----] 80%
-Maven       [####################] 100%
-Git         [##################--] 90%
-Linux       [##################--] 90%
-```
+### 📦 [RedisPractice]
+> [!NOTE]
+> **Reference Architecture for High Performance.**
+> A deep dive into advanced caching strategies and performance optimization using Spring Boot and Redis.
+
+- **Status:** 🧪 In Development / Reference
+- **Location:** `ReferenceProjects/RedisPratice/`
+- **Tech:** Redis Caching, PostgreSQL.
 
 ---
 
-## 🚀 Featured Agents & Projects
+## 🛠️ System Capabilities
 
-+-----------------------------------------------------------+
-| **AGENT SKILL: [springboot-project-creator]**             |
-+-----------------------------------------------------------+
-| > **Status:** ✅ **PRODUCTION READY**                     |
-| > **Purpose:** Automated production-grade scaffolding.    |
-| > **Features:** 3-Tier Layered Architecture, DTO          |
-| >             Separation, Constructor Injection, Swagger,  |
-| >             Global Exception Handling.                   |
-| > **Location:** `AgentSkills/springboot-project-creator/` |
-+-----------------------------------------------------------+
+### [ LANGUAGES ]
+| Language | Proficiency |
+| :--- | :--- |
+| **Java** | `[####################] 100%` |
+| **JavaScript** | `[################----] 80%` |
+| **SQL** | `[##############------] 70%` |
 
-+-----------------------------------------------------------+
-| **PROJECT: [RedisPractice]**                              |
-+-----------------------------------------------------------+
-| > **Type:** Reference Architecture                        |
-| > **Tech:** Spring Boot, Redis Caching, PostgreSQL.       |
-| > **Goal:** Demonstrating advanced caching strategies and  |
-| >         performance optimization.                        |
-| > **Location:** `ReferenceProjects/RedisPratice/`         |
-+-----------------------------------------------------------+
+### [ FRAMEWORKS ]
+| Framework | Proficiency |
+| :--- | :--- |
+| **Spring Boot** | `[####################] 100% (Expert)` |
+| **Spring MVC** | `[##################--] 90%` |
+| **Hibernate** | `[##################--] 90%` |
+| **React.js** | `[##############------] 70%` |
 
 ---
 
-## 📂 Workspace Structure
+## 📂 Project Structure
 
 ```bash
-chaniji:> tree -L 1 .
 .
 ├── 📁 AgentSkills        # Custom AI agents and skill definitions
+│   └── 📁 springboot-project-creator
 ├── 📁 Commands           # Reusable command snippets (Maven/Mongo)
 ├── 📁 Dotfiles           # Environment configurations (Nvim, Tmux, Alacritty)
-├── 📁 MarkDownFiles      # Documentation and Resumes
 ├── 📁 ReferenceProjects  # Real-world implementation examples
+│   └── 📁 RedisPratice
+├── 📁 MarkDownFiles      # Documentation and Resumes
 └── 📁 Wallpapers         # Minimalist aesthetic collection
 ```
 
@@ -100,8 +92,4 @@ chaniji:> tree -L 1 .
 | GITHUB:  @chaniji                                         |
 | STATUS:  Online & Building...                             |
 +-----------------------------------------------------------+
-```
-
-```bash
-chaniji:> _
 ```
