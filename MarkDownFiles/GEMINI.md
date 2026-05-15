@@ -33,5 +33,9 @@ This folder is an Obsidian vault containing resume data and technical project cl
 - **Index Management:** Whenever a new note or folder is created, the `index.md` (Vault Index) **MUST** be updated immediately.
 - **Title Rule:** Every folder and subfolder, regardless of nesting depth, must be a section title in `index.md`. Maintain a strict hierarchy: use H2 (##) for top-level folders and H3/H4 (###/####) for nested subfolders, creating a visual tree matching your directory structure.
 - **Resume Data:** `resume.json` and `resume.yaml` are the source of truth for professional info.
-- **Clippings:** Technical research and project imports are stored in `Clippings/`.
+- **Clippings & Note Organization:** 
+    - If a clipping or note is related to **GitHub**, move it to the `GitHub/` root folder.
+    - If a clipping or note is related to **MongoDB**, move it to `memories/mongodb/`.
+    - If a clipping or note is related to **Eureka**, move it to `memories/Eureka/`.
+    - Technical research and other project imports are stored in `Clippings/`.
 - **Style:** Maintain a clean, professional, and organized structure. Prefer minimalist documentation that focuses on high-signal technical details.

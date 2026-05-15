@@ -11,14 +11,10 @@
             "id": "1d2deefffb5d844e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PersonalData/job-search-2026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "job-search-2026"
+              "title": "New tab"
             }
           }
         ]
@@ -183,10 +179,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d2deefffb5d844e",
+  "active": "31fea2330b1d6c87",
   "lastOpenFiles": [
-    "Articles/INVENTORY SERVICE DOCUMENTATION.md",
+    "Projects/2026-05-14-erp-pending-tasks.md",
+    "Projects/INVENTORY SERVICE DOCUMENTATION.md",
+    "Projects/ERP_Project_Documentation.md",
+    "Projects",
+    "Articles/ERP_Project_Documentation.md",
     "PersonalData/job-search-2026.md",
+    "Articles/INVENTORY SERVICE DOCUMENTATION.md",
     "Clippings/santifercareer-ops AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing..md",
     "Clippings/Manavarya09design-extract Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude CodeCursorWindsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPre.md",
     "Clippings/article HTML article contents element.md",
