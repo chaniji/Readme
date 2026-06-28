@@ -1,6 +1,5 @@
 # docker-compose-infra.yml
 # Services: localstack | vault
-
 services:
   # ── LOCALSTACK (community) ────────────────────────────
   localstack:
