@@ -7,8 +7,8 @@ meta:
 rules[5]{id,rule}:
   1,Info store → toon format only
   2,Install → linux binaries + curl + native pkg manager only
-  3,Bun → dev purpose only
-  4,Repos → chaniji | ts | java only
+  3,Bun | Maven  → dev purpose only
+  4,Repos → chaniji | ts | java | Database only
   5,Updates/installs → Sunday only
 
 stack[9]{category,tools}:
