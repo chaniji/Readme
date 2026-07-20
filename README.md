@@ -1,10 +1,10 @@
 ```
-
-                                                 .; 
-                                               .`;'                           
-                                           . ` ;;'
-                                  . ` `  `   ;;;'
-                                `       @  ;;;
+                                                     const order = ["profile", "identity", "philosophy", "setup", "tools", "favourites"];
+                                                 .;  const all = [                                     
+                                               .`;'      { name: "profile", value: ["Chandramouli", getAge(2004)] },                       
+                                           . ` ;;'       { name: "identity", value: ["Programmer", "Writer", "Philosopher", "Graphics Designer"] },
+                                  . ` `  `   ;;;'        { name: "philosophy", value: [...new Set(["Minimalism", "Stoicism", "NeoMarxist"])] },
+                                `       @  ;;;           { name: "setup", value: { theme: "Gruvbox Dark", font: "JetBrains Mono Nerd Font" } },
                              `            ;;;
                            `            ;;;;
                          `            ;;;;;.
