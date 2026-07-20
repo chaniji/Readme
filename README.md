@@ -7,6 +7,7 @@ ___________   _______________________________________^__
 ___________|||______________________________|______________/
            |||     I'd rather be at DisneyWorld...    /--------
 -----------'''---------------------------------------'
+
 const order = ["profile", "identity", "philosophy", "setup", "tools", "favourites"];
 const all = [
   { name: "profile", value: ["Chandramouli", getAge(2004)] },
