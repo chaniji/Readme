@@ -1,13 +1,4 @@
 ```ts
--_                 _-_                 _-_      .
-   \             /     \             /     \    .
-    \           /       \           /       \   .
-_ _ _\ _ _ _ _ / _ _ _ _ \ _ _ _ _ / _ _ _ _ \ _.
-      \       /           \       /           \ .
-       \     /             \     /             \.
-         -_-                 -_-                .
-
-
 const order = ["profile", "identity", "philosophy", "setup", "tools", "favourites"];
 const all = [
   { name: "profile", value: ["Chandramouli", getAge(2004)] },
@@ -27,7 +18,13 @@ all.forEach(g => {
   console.log(`${g.name[0].toUpperCase() + g.name.slice(1)}: ${val}`);
 });
 
-
+-_                 _-_                 _-_      .
+   \             /     \             /     \    .
+    \           /       \           /       \   .
+_ _ _\ _ _ _ _ / _ _ _ _ \ _ _ _ _ / _ _ _ _ \ _.
+      \       /           \       /           \ .
+       \     /             \     /             \.
+         -_-                 -_-                .
 Output:
 Profile: Chandramouli, 22
 Identity: Programmer, Writer, Philosopher, Graphics Designer
