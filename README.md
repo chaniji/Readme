@@ -27,8 +27,7 @@ all.forEach(g => {
     : Object.entries(g.value).map(([k, v]) => `${k}=${v}`).join(", ");
   console.log(`${g.name[0].toUpperCase() + g.name.slice(1)}: ${val}`);
 });
-
-
+__________________________________________________________________________
 Output:
 Profile: Chandramouli, 22
 Identity: Programmer, Writer, Philosopher, Graphics Designer
@@ -36,4 +35,5 @@ Philosophy: Minimalism, Stoicism, NeoMarxist
 Setup: theme=Gruvbox Dark, font=JetBrains Mono Nerd Font
 Tools: Curl, Fzf, Zoxide, Tmux, Ripgrep, Alacritty, Devilspie2, Neovim, Opencode, Lazydocker, Lazygit, Lazysql, Pass
 Favourites: Postgres, Kafka, Docker, Java, Git, Spring, NextJS, Terraform, Hadoop
+__________________________________________________________________________
 ```
