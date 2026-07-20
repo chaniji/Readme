@@ -1,8 +1,12 @@
-# Chandramouli
-
-![tree](./tree.svg)
-
 ```ts
+-_                 _-_                 _-_      .
+   \             /     \             /     \    .
+    \           /       \           /       \   .
+_ _ _\ _ _ _ _ / _ _ _ _ \ _ _ _ _ / _ _ _ _ \ _.
+      \       /           \       /           \ .
+       \     /             \     /             \.
+         -_-                 -_-                .
+
 const order = ["profile", "identity", "philosophy", "setup", "tools", "favourites"];
 
 const all = [
@@ -24,10 +28,7 @@ all.forEach(g => {
     : Object.entries(g.value).map(([k, v]) => `${k}=${v}`).join(", ");
   console.log(`${g.name[0].toUpperCase() + g.name.slice(1)}: ${val}`);
 });
-```
-
-**Output:**
-```
+Output:
 Profile: Chandramouli, 22
 Identity: Programmer, Writer, Philosopher, Graphics Designer
 Philosophy: Minimalism, Stoicism, NeoMarxist
