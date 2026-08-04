@@ -57,6 +57,16 @@ ENTERTAINMENT ───── spotify · youtube · vlc
 > discord
 ```
 
+## ▓▓ CODES ▓▓
+```
+1 = Gruvbox 
+0 = DiscoElysium
+7 = KingdomComeDeliverance
+100 = Mobile
+11 =Memories  
+```
+
+
 ```
 ██████████████████████████████████████████████
 █              END OF FILE — chaniji           █
