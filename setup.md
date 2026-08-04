@@ -54,6 +54,7 @@ ENTERTAINMENT ───── spotify · youtube · vlc
 > vercel
 > dockerhub
 > mozilla
+> discord
 ```
 
 ```
