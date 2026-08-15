@@ -1,0 +1,230 @@
+/*
+Theme Name: Perenne Brutalist
+Template: perenne
+Author: chaniji
+Description: Recreation of the official WordPress.com "Nouvelle" theme (Art Nouveau blog theme by Automattic), rebuilt as a child theme.
+Version: 3.0.0
+Text Domain: perenne-brutalist
+*/
+
+/* ---------- NOUVELLE PALETTE (recreated) ---------- */
+:root {
+  --nv-base: #f7f3ee;       /* cream */
+  --nv-contrast: #1a404d;   /* dark teal */
+  --nv-primary: #163a45;    /* deep teal */
+  --nv-secondary: #8e6c3d;  /* warm gold-brown */
+  --nv-tertiary: #d1b894;   /* tan */
+}
+
+* {
+  box-shadow: none !important;
+}
+
+html, body {
+  background: var(--nv-base);
+  color: var(--nv-contrast);
+}
+
+body {
+  font-family: "Grenze", Georgia, serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.wp-block-post-title,
+.wp-block-site-title {
+  font-family: "Fraunces", Georgia, serif !important;
+  font-weight: 700;
+  line-height: 1.25;
+}
+h1 { text-transform: uppercase; font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.25rem); }
+
+/* dropcap, ported verbatim from Nouvelle's theme.json custom css */
+.has-dropcap:first-letter {
+  font-size: 4.25rem;
+  float: left;
+  margin: 0rem 0.2rem 0.2rem 0;
+  line-height: 0.65;
+  padding: 0.5rem;
+  font-family: "Fraunces", Georgia, serif;
+  color: var(--nv-secondary);
+}
+
+/* narrow content column like Nouvelle (640/1120) */
+.wp-site-blocks,
+.wp-block-group.is-layout-constrained,
+.is-layout-constrained {
+  max-width: 640px !important;
+}
+.alignwide { max-width: 1120px !important; }
+
+/* links */
+a {
+  color: var(--nv-primary);
+  text-decoration: none;
+  text-decoration-thickness: 0.0225em;
+  text-underline-offset: 0.125em;
+}
+a:hover { text-decoration: underline; }
+
+/* ---------- HEADER ---------- */
+.nv-header {
+  text-align: center;
+  padding: 3em 1em 2em 1em;
+  position: relative;
+}
+.nv-corner {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  opacity: 0.8;
+}
+.nv-corner.tl { top: 8px; left: 8px; }
+.nv-corner.tr { top: 8px; right: 8px; transform: scaleX(-1); }
+
+.nv-sitetitle a {
+  font-family: "MonteCarlo", "Fraunces", cursive, serif !important;
+  font-size: clamp(2.5rem, 6vw, 4rem) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.05rem;
+  text-transform: none !important;
+  color: var(--nv-contrast) !important;
+  text-decoration: none !important;
+}
+.nv-tagline {
+  font-family: "Grenze", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--nv-secondary);
+  margin-top: 0.25em !important;
+}
+
+.nv-nav {
+  justify-content: center !important;
+  margin-top: 1.25em !important;
+}
+.wp-block-navigation .wp-block-navigation-item a {
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+  text-decoration: none !important;
+  color: var(--nv-contrast) !important;
+  padding: 0 0.6em;
+}
+.wp-block-navigation .wp-block-navigation-item a:hover {
+  text-decoration: underline !important;
+}
+
+/* ---------- BUTTONS ---------- */
+.wp-block-button__link,
+button,
+input[type="submit"] {
+  background: var(--nv-tertiary) !important;
+  color: var(--nv-contrast) !important;
+  border: 2px solid var(--nv-tertiary) !important;
+  border-radius: 0.25rem !important;
+  font-family: "Grenze", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.6em 1.4em;
+}
+.wp-block-button__link:hover,
+button:hover,
+input[type="submit"]:hover {
+  background: var(--nv-secondary) !important;
+  border-color: var(--nv-secondary) !important;
+  color: var(--nv-base) !important;
+}
+
+/* ---------- QUOTES ---------- */
+.wp-block-quote {
+  border: none !important;
+  border-left: 1px solid var(--nv-contrast) !important;
+  padding-left: 1.5em !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.wp-block-pullquote {
+  border: none !important;
+  border-top: 1px solid var(--nv-contrast) !important;
+  border-bottom: 1px solid var(--nv-contrast) !important;
+  padding: 1.5em !important;
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* nouvelle-ornament quote style */
+.wp-block-quote.is-style-nouvelle-ornament,
+.wp-block-quote.is-style-large {
+  text-align: center;
+  border: none !important;
+  padding: 2.5em 0;
+  margin: 0 auto;
+  max-width: 42rem;
+  font-size: 1.4rem;
+}
+.wp-block-quote.is-style-nouvelle-ornament::before,
+.wp-block-quote.is-style-large::before {
+  content: "\2738";
+  display: block;
+  font-size: 1.6rem;
+  color: var(--nv-secondary);
+  margin-bottom: 0.5em;
+}
+
+/* ---------- SEPARATOR ---------- */
+hr,
+.wp-block-separator {
+  border: none !important;
+  border-bottom: 1px solid var(--nv-contrast) !important;
+  height: 0 !important;
+  margin: 2.5em auto !important;
+  max-width: 200px;
+}
+
+/* ---------- POST LIST / META ---------- */
+.wp-block-post-title a {
+  text-decoration: none !important;
+  color: var(--nv-contrast);
+}
+.wp-block-post-title a:hover { text-decoration: underline !important; }
+
+.wp-block-post-date,
+.wp-block-post-author,
+.wp-block-post-terms {
+  font-size: 0.9rem;
+  color: var(--nv-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+img {
+  border-radius: 2px;
+}
+
+/* ---------- FOOTER ---------- */
+.nv-footer {
+  text-align: center;
+  padding: 2.5em 1em;
+  font-size: 0.85rem;
+  color: var(--nv-secondary);
+  border-top: 1px solid var(--nv-contrast);
+  margin-top: 2em;
+}
+
+/* ---------- FORM FIELDS ---------- */
+input, textarea, select {
+  border: 1px solid var(--nv-contrast) !important;
+  background: var(--nv-base);
+  color: var(--nv-contrast);
+  border-radius: 0.25rem !important;
+  font-family: "Grenze", serif;
+}
+input:focus, textarea:focus, select:focus {
+  outline: 1px dotted var(--nv-primary);
+  outline-offset: 2px;
+}

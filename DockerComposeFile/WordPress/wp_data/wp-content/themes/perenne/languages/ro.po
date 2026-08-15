@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Perenne\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-11T04:45:10+00:00\n"
+"PO-Revision-Date: 2024-11-10 09:07:07+0000\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: patterns/single.php
+msgctxt "Pattern title"
+msgid "single"
+msgstr "singular"
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "search"
+msgstr "Caută"
+
+#: patterns/index.php
+msgctxt "Pattern title"
+msgid "index"
+msgstr "index"
+
+#. Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a'
+#. HTML element
+#: patterns/footer.php:12
+msgid "Designed with %1$sWordPress%2$s"
+msgstr "Proiectat cu %1$sWordPress%2$s"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "footer"
+msgstr "subsol"
+
+#: patterns/archive.php:20
+#: patterns/index.php:18
+#: patterns/search.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nu s-a potrivit nimic cu termenii tăi de căutare. Te rog încearcă din nou cu alte cuvinte cheie."
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "archive"
+msgstr "arhivă"
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Foarte mare"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Mare"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Mediu"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Mic"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundară"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "Filtru implicit"
+
+#: styles/noir.json
+msgctxt "Style variation name"
+msgid "Noir"
+msgstr "Negru"
+
+#: styles/noir.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Principală"
+
+#: styles/noir.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Bază"
+
+#. Description of the theme
+#: style.css
+msgid "Exegi monumentum aere perennius."
+msgstr "Am înălțat un monument mai durabil decât bronzul."
+
+#: patterns/archive.php:30
+#: patterns/index.php:28
+#: patterns/single.php:43
+msgid "Prev"
+msgstr "Anterioară"
+
+#: patterns/archive.php:32
+#: patterns/index.php:30
+#: patterns/single.php:45
+msgid "Next"
+msgstr "Următoare"
+
+#: patterns/404.php:14
+msgid "Oops! That page can’t be found."
+msgstr "Hopa! Acea pagină nu poate fi găsită."
