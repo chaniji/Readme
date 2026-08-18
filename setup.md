@@ -34,6 +34,7 @@ FONT    : JetBrains Mono Nerd Font
 TERMINAL ────────── alacritty
 MULTIPLEXER ─────── tmux
 SHELL ───────────── bash
+EDITOR ──────────── zed
 BROWSER ─────────── zen-browser
 UTILITIES ───────── fzf · bat · eza · rg · zoxide
 WM ──────────────── devilspie2
