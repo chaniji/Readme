@@ -58,6 +58,14 @@ ENTERTAINMENT ───── spotify · youtube · vlc
 > discord
 ```
 
+## ▓▓ OPEN LIBRARY ▓▓
+
+```
+> internet archive
+```
+
+---
+
 ## ▓▓ CODES ▓▓
 ```
 1 = Gruvbox 
